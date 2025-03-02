@@ -58,7 +58,7 @@ const ExperienceItem = ({ experience }) => {
                     {experience.emblem && (
                         <div className="experience-emblem">
                             <a href={experience.companyLink} target="_blank" rel="noopener noreferrer">
-                                <img src={experience.emblem} alt={`${experience.company} emblem`} />
+                                <img src={`${process.env.PUBLIC_URL}/${experience.emblem}`} alt={`${experience.company} emblem`} />
                             </a>
                         </div>
                     )}

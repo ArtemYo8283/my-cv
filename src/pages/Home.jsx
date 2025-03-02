@@ -50,7 +50,7 @@ const Home = () => {
                 {/* Right Column */}
                 <div className="home-right">
                     <div className="photo-wrapper">
-                        <img src="abondar.png" alt="Profile" className="profile-photo" />
+                        <img src={`${process.env.PUBLIC_URL}/abondar.png`} alt="Profile" className="profile-photo" />
                     </div>
                     <div className="technologies">
                         <h2>Programming Languages</h2>
