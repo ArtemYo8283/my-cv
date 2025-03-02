@@ -1,0 +1,32 @@
+[
+    {
+      "role": "Back-End Developer",
+      "company": "Timely Wills",
+      "duration": "4 months",
+      "description": "Timely Wills is a comprehensive platform designed to simplify the process of creating and managing essential legal documents, such as wills and powers of attorney. With its user-friendly interface and a range of features, it enables individuals to easily navigate the complexities of estate planning and ensure that their wishes are clearly documented and legally binding.",
+      "technologies": [
+        "NestJS",
+        "Strapi CMS",
+        "Postgres",
+        "TypeORM",
+        "AWS (S3, EC2)",
+        "Sendgrid",
+        "Stripe",
+        "PDF generator"
+      ],
+      "requirements": [
+        "Send emails to users with custom templates",
+        "Self-hosted payments",
+        "Users can pay by promo codes or get discounts",
+        "Users can buy a promo code and send it to a relative via email",
+        "PDF generation with flexible templates and various datasets",
+        "Users can update documents for 1 year free (then subscription is required)",
+        "Generated documents are stored in file storage",
+        "Users can access all of their documents and upload signed versions",
+        "Users can delete and restore their account"
+      ],
+      "results": "As a result of my work as a Back-End Developer at Timely Wills, I transformed a concept into a fully functional, intelligent, and user-friendly platform. SendGrid was used for sending emails, Stripe processed payments, AWS handled deployment and file storage, and PDF generation was implemented via the PDF generator API.",
+      "previewImage": "timely-wills-preview.png"
+    }
+  ]
+  

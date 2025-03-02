@@ -1,0 +1,92 @@
+.experience-section {
+    padding: 100px 20px;
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .experience-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .experience-section h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .experience-item {
+    margin-bottom: 60px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+  }
+  
+  .experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .experience-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .experience-emblem {
+    flex-shrink: 0;
+    margin-right: 20px;
+  }
+  
+  .experience-emblem img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  
+  .experience-info h2 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  
+  .experience-info h2 a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .experience-info h2 a:hover {
+    color: #ffffff;
+  }
+  
+  .employment-type,
+  .location {
+    font-size: 1rem;
+    color: #9e9e9e;
+  }
+  
+  .experience-overall {
+    font-size: 1rem;
+    color: #9e9e9e;
+  }
+  
+  .positions {
+    margin-top: 20px;
+  }
+  
+  .position-item {
+    margin-bottom: 15px;
+  }
+  
+  .position-title {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+  
+  .position-period {
+    font-size: 0.95rem;
+    color: #9e9e9e;
+  }
+  

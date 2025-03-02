@@ -1,0 +1,50 @@
+[
+    {
+      "company": "Incode Group",
+      "companyLink": "https://www.incode-group.com",
+      "emblem": "incode_group_logo.jpg",
+      "employmentType": "Full-time",
+      "location": "Kharkiv, Ukraine · Remote work",
+      "positions": [
+        {
+          "title": "Junior Backend Node.Js Developer",
+          "startDate": "2024-07",
+          "endDate": "present"
+        },
+        {
+          "title": "Trainee Backend Node.Js Developer",
+          "startDate": "2024-03",
+          "endDate": "2024-06"
+        }
+      ]
+    },
+    {
+      "company": "Innovation Campus of NTU \"KhPI\"",
+      "companyLink": "https://campus.kpi.kharkov.ua",
+      "emblem": "campus_khpi_logo.jpg",
+      "employmentType": "Part-time",
+      "location": "Kharkiv, Ukraine",
+      "positions": [
+        {
+          "title": "Assistant System Administrator",
+          "startDate": "2021-11",
+          "endDate": "present"
+        }
+      ]
+    },
+    {
+      "company": "Cytric",
+      "companyLink": "https://www.cytric.io",
+      "emblem": "cytric_logo.jpg",
+      "employmentType": "Part-time",
+      "location": "Remote work",
+      "positions": [
+        {
+          "title": "Backend Node.Js Developer",
+          "startDate": "2023-11",
+          "endDate": "2024-04"
+        }
+      ]
+    }
+  ]
+  

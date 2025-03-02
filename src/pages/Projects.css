@@ -1,0 +1,77 @@
+.projects-section {
+  padding: 100px 20px;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.projects-section h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.project-item {
+  margin-bottom: 60px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.project-header h2 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.project-duration {
+  font-size: 1rem;
+  color: #9e9e9e;
+}
+
+.project-preview {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.project-preview img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-description {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.project-section-sub {
+  margin-bottom: 20px;
+}
+
+.project-section-sub h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-technologies,
+.project-requirements {
+  list-style: disc;
+  margin-left: 20px;
+  line-height: 1.6;
+}
+
+.project-results {
+  margin: 0;
+  line-height: 1.6;
+}

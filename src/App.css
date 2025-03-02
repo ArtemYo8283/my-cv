@@ -1,0 +1,54 @@
+/* src/App.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1e1e1e;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0 20px;
+  }
+  
+  .navbar a {
+    color: #9e9e9e;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .navbar a.active {
+    border-bottom: 2px solid #9e9e9e;
+  }
+  
+  main {
+    padding-top: 60px; /* Регулируйте в зависимости от высоты навбара */
+  }
+  
+  .section {
+    padding: 100px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
