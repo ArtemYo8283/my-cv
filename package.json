@@ -17,7 +17,7 @@
   "homepage": "https://ArtemYo8283.github.io/my-cv",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b gh-pages-alt -f",
+    "deploy": "gh-pages -d build -b gh-pages -f",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
