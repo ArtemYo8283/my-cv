@@ -13,7 +13,7 @@ const ProjectItem = ({ project }) => (
     </div>
     {project.previewImage && (
       <div className="project-preview">
-        <img src={project.previewImage} alt={`${project.company} preview`} />
+        <img src={`${process.env.PUBLIC_URL}/${project.previewImage}`} alt={`${project.company} preview`} />
       </div>
     )}
     <p className="project-description">{project.description}</p>
@@ -25,14 +25,16 @@ const ProjectItem = ({ project }) => (
         ))}
       </ul>
     </div>
-    <div className="project-section-sub">
-      <h3>Requirements</h3>
-      <ul className="project-requirements">
-        {project.requirements.map((req, index) => (
-          <li key={index}>{req}</li>
-        ))}
-      </ul>
-    </div>
+    {project.requirements && (
+      <div className="project-section-sub">
+        <h3>Requirements</h3>
+        <ul className="project-requirements">
+          {project.requirements.map((req, index) => (
+            <li key={index}>{req}</li>
+          ))}
+        </ul>
+      </div>
+    )}
     <div className="project-section-sub">
       <h3>Results</h3>
       <p className="project-results">{project.results}</p>

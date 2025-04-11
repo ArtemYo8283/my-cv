@@ -7,14 +7,19 @@
       "location": "Kharkiv, Ukraine · Remote work",
       "positions": [
         {
+          "title": "Strong Junior Backend Node.Js Developer",
+          "startDate": "2025-01",
+          "endDate": "present"
+        },
+        {
           "title": "Junior Backend Node.Js Developer",
           "startDate": "2024-07",
-          "endDate": "present"
+          "endDate": "2025-01"
         },
         {
           "title": "Trainee Backend Node.Js Developer",
           "startDate": "2024-03",
-          "endDate": "2024-06"
+          "endDate": "2024-07"
         }
       ]
     },
