@@ -67,11 +67,13 @@ const Home = () => {
                             <li>GraphQL</li>
                             <li>Sequelize</li>
                             <li>TypeORM</li>
+                            <li>Mongoose</li>
                             <li>Stripe</li>
                             <li>Twilio</li>
+                            <li>MailGun</li>
                             <li>SendGrid</li>
                             <li>RabbitMQ</li>
-                            <li>socket.io</li>
+                            <li>Socket.io</li>
                             <li>Websockets</li>
                             <li>Auth0</li>
                             <li>JWT</li>
@@ -92,7 +94,7 @@ const Home = () => {
                         </ul>
                         <h2>Cloud Platforms</h2>
                         <ul className="tech-list">
-                            <li>AWS (EC2, Lambda, API Gateway, S3, RDS, Cognito, Elastic Beanstalk)</li>
+                            <li>AWS (EC2, Lambda, API Gateway, S3, RDS, Cognito, Elastic Beanstalk, SQS, DocumentDB, CloudWatch)</li>
                             <li>GCP (Cloud SQL, API Gateway, Cloud Build, Cloud Vision API, Artifact Registry)</li>
                         </ul>
                         <h2>Source Controls</h2>

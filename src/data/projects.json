@@ -1,32 +1,84 @@
 [
-    {
-      "role": "Back-End Developer",
-      "company": "Timely Wills",
-      "duration": "4 months",
-      "description": "Timely Wills is a comprehensive platform designed to simplify the process of creating and managing essential legal documents, such as wills and powers of attorney. With its user-friendly interface and a range of features, it enables individuals to easily navigate the complexities of estate planning and ensure that their wishes are clearly documented and legally binding.",
-      "technologies": [
-        "NestJS",
-        "Strapi CMS",
-        "Postgres",
-        "TypeORM",
-        "AWS (S3, EC2)",
-        "Sendgrid",
-        "Stripe",
-        "PDF generator"
-      ],
-      "requirements": [
-        "Send emails to users with custom templates",
-        "Self-hosted payments",
-        "Users can pay by promo codes or get discounts",
-        "Users can buy a promo code and send it to a relative via email",
-        "PDF generation with flexible templates and various datasets",
-        "Users can update documents for 1 year free (then subscription is required)",
-        "Generated documents are stored in file storage",
-        "Users can access all of their documents and upload signed versions",
-        "Users can delete and restore their account"
-      ],
-      "results": "As a result of my work as a Back-End Developer at Timely Wills, I transformed a concept into a fully functional, intelligent, and user-friendly platform. SendGrid was used for sending emails, Stripe processed payments, AWS handled deployment and file storage, and PDF generation was implemented via the PDF generator API.",
-      "previewImage": "timely-wills-preview.png"
-    }
-  ]
-  
+  {
+    "role": "Back-End Developer",
+    "company": "Timely Wills",
+    "duration": "4 months",
+    "description": "Timely Wills is a comprehensive platform designed to simplify the process of creating and managing essential legal documents, such as wills and powers of attorney. With its user-friendly interface and a range of features, it enables individuals to easily navigate the complexities of estate planning and ensure that their wishes are clearly documented and legally binding.",
+    "technologies": [
+      "NestJS",
+      "Strapi CMS",
+      "Postgres",
+      "TypeORM",
+      "AWS (S3, EC2)",
+      "Sendgrid",
+      "Stripe",
+      "PDF generator"
+    ],
+    "requirements": [
+      "Send emails to users with custom templates",
+      "Self-hosted payments",
+      "Users can pay by promo codes or get discounts",
+      "Users can buy a promo code and send it to a relative via email",
+      "PDF generation with flexible templates and various datasets",
+      "Users can update documents for 1 year free (then subscription is required)",
+      "Generated documents are stored in file storage",
+      "Users can access all of their documents and upload signed versions",
+      "Users can delete and restore their account"
+    ],
+    "results": "As a result of my work as a Back-End Developer at Timely Wills, I transformed a concept into a fully functional, intelligent, and user-friendly platform. SendGrid was used for sending emails, Stripe processed payments, AWS handled deployment and file storage, and PDF generation was implemented via the PDF generator API.",
+    "previewImage": "timely-wills-preview.png"
+  },
+  {
+    "role": "Back-End Developer",
+    "company": "Autofunnel",
+    "duration": "3 months",
+    "description": "Autofunnel is an AI-powered marketing platform designed to help businesses build and automate their online presence without requiring coding skills. It offers tools to create landing pages, sales funnels, email sequences, eBooks, podcasts, and more.",
+    "technologies": [
+      "NestJS",
+      "GraphQl",
+      "MongoDB",
+      "Mongoose",
+      "Websockets",
+      "AWS (S3, EC2, SQS, Cognito, DocumentDB, CloudWatch)",
+      "MailGun",
+      "Stripe",
+      "Open AI"
+    ],
+    "results": "As a result of my work as a Back-End Developer at Autofunnel, I implemented the email generation and sending system, also set up the payment system and internal wallet, contributed to each part of the system, fixed bugs and optimized the system",
+    "previewImage": "autofunnel-preview.png"
+  },
+  {
+    "role": "Back-End Developer",
+    "company": "TradeVision",
+    "duration": "3 months",
+    "description": "TradeVision is an online trading platform designed to assist both novice and experienced traders in making informed, data-driven decisions. It offers a variety of tools and features aimed at enhancing trading strategies and optimizing performance.",
+    "technologies": [
+      "NestJS",
+      "Postgresql",
+      "TypeORM",
+      "Redis",
+      "Firebase",
+      "Heroku",
+      "SendGrid",
+      "Stripe",
+      "Nx"
+    ],
+    "results": "As a result of my work as a Back-End Developer at TradeVision, I set up a payment system, set up a microservices system via nx, implemented a referral system, connected firebase for authentication, set up ci/cd.",
+    "previewImage": "tradevision-preview.png"
+  },
+  {
+    "role": "Back-End Developer",
+    "company": "Catwalk",
+    "duration": "2 months",
+    "description": "Catwalk is a social network for fashion and clothing.",
+    "technologies": [
+      "NestJS",
+      "Postgresql",
+      "TypeORM",
+      "Firebase",
+      "GCP (Cloud SQL, API Gateway, Cloud Build, Cloud Vision API, Artifact Registry)",
+      "Nx"
+    ],
+    "results": "As a result of my work as a Back-End Developer at Catwalk, I created an API for uploading, checking images for inappropriate content, blurring images, building vectors, and also a firebase authorization module."
+  }
+]
