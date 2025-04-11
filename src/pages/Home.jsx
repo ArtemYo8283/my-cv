@@ -10,7 +10,7 @@ const Home = () => {
                 <div className="home-left">
                     <h1>Artem Bondar</h1>
                     <p className="description">
-                        I'm a back-end developer with three years of hands-on experience working with Node.js, Nest.js, Express, and various databases including MongoDB, PostgreSQL, Firebase, and MySQL. My technical expertise is complemented by strong English communication skills, enabling seamless collaboration with international teams. I possess strong problem-solving abilities in back-end development and am highly self-organized. My goal is to contribute to the creation of innovative applications and to enhance and refine existing projects.
+                        I'm a back-end developer with two years of hands-on experience working with Node.js, Nest.js, Express, and various databases including MongoDB, PostgreSQL, Firebase, and MySQL. My technical expertise is complemented by strong English communication skills, enabling seamless collaboration with international teams. I possess strong problem-solving abilities in back-end development and am highly self-organized. My goal is to contribute to the creation of innovative applications and to enhance and refine existing projects.
                     </p>
                     <div className="info-cards">
                         <div className="card education">
