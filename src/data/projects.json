@@ -31,7 +31,7 @@
   {
     "role": "Back-End Developer",
     "company": "Autofunnel",
-    "duration": "3 months",
+    "duration": "5 months",
     "description": "Autofunnel is an AI-powered marketing platform designed to help businesses build and automate their online presence without requiring coding skills. It offers tools to create landing pages, sales funnels, email sequences, eBooks, podcasts, and more.",
     "technologies": [
       "NestJS",
@@ -44,8 +44,53 @@
       "Stripe",
       "Open AI"
     ],
+    "requirements": [
+      "Add internal wallet and credits system",
+      "Add unit tests",
+      "Configure CI/CD for deploy and running tests",
+      "Finish Broadcaster service (Email blast)",
+      "Improve admin ui",
+      "Fix csv parser",
+      "Optimizing search",
+      "Fix errors in all services in app"
+    ],
     "results": "As a result of my work as a Back-End Developer at Autofunnel, I implemented the email generation and sending system, also set up the payment system and internal wallet, contributed to each part of the system, fixed bugs and optimized the system",
     "previewImage": "autofunnel-preview.png"
+  },
+    {
+    "role": "Back-End Developer",
+    "company": "Wonderish",
+    "duration": "2 months",
+    "description": "Wonderish is an online platform for building websites via vibe-coding. It lets you create websites, landing pages, and apps by simply typing. No code, no setup — just fast, stunning results.",
+    "technologies": [
+      "NestJS",
+      "NextJS",
+      "React",
+      "Tailwind",
+      "Postgresql",
+      "Supabase",
+      "Websockets",
+      "Render",
+      "Cloudflare KV store",
+      "Cloudflare Custom Domains",
+      "Cloudflare R2",
+      "Stripe",
+      "Kubernetes",
+      "Open AI"
+    ],
+    "requirements": [
+      "Create structure of db",
+      "Create all required endpoints",
+      "Add tools for get file content and folder structure on pod",
+      "Add unit tests",
+      "Create logic for running, restoring, cleaning pods",
+      "Configure Stripe and sandboxes",
+      "Configure Supabase and Render for deployment",
+      "Configure CI/CD for deploy and running tests",
+      "Create admin ui"
+    ],
+    "results": "As a result of my work as a Back-End Developer at Wonderish, I have fully developed API for data processing for generating sites, deploying pods in kubernetes and their automatic cleaning and creation of snapshots, cloning of already created projects, checkpoint and roleback system, automatic tests for API and for service on python, payment system, admin panel with various statistical data.",
+    "previewImage": "wonderish-preview.png"
   },
   {
     "role": "Back-End Developer",
@@ -63,7 +108,7 @@
       "Stripe",
       "Nx"
     ],
-    "results": "As a result of my work as a Back-End Developer at TradeVision, I set up a payment system, set up a microservices system via nx, implemented a referral system, connected firebase for authentication, set up ci/cd.",
+    "results": "As a result of my work as a Back-End Developer at TradeVision, I set up a payment system, set up a microservices system via nx, implemented a referral system, connected firebase for authentication, set up CI/CD.",
     "previewImage": "tradevision-preview.png"
   },
   {

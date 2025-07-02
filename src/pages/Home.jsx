@@ -63,7 +63,9 @@ const Home = () => {
                             <li>Node.js</li>
                             <li>Express.js</li>
                             <li>Nest.js</li>
+                            <li>Next.js</li>
                             <li>Firebase</li>
+                            <li>Supabase</li>
                             <li>GraphQL</li>
                             <li>Sequelize</li>
                             <li>TypeORM</li>
@@ -81,8 +83,10 @@ const Home = () => {
                             <li>Mocha</li>
                             <li>Jest</li>
                             <li>Docker</li>
+                            <li>Kubernetes</li>
                             <li>Algolia</li>
                             <li>ElasticSearch</li>
+                            <li>OpenAI</li>
                         </ul>
                         <h2>Servers/Databases</h2>
                         <ul className="tech-list">
@@ -91,11 +95,13 @@ const Home = () => {
                             <li>PostgreSQL</li>
                             <li>MongoDB</li>
                             <li>Firebase</li>
+                            <li>Supabase</li>
                         </ul>
                         <h2>Cloud Platforms</h2>
                         <ul className="tech-list">
                             <li>AWS (EC2, Lambda, API Gateway, S3, RDS, Cognito, Elastic Beanstalk, SQS, DocumentDB, CloudWatch)</li>
                             <li>GCP (Cloud SQL, API Gateway, Cloud Build, Cloud Vision API, Artifact Registry)</li>
+                            <li>Cloudflare (R2, KV, Custom Domains, DNS)</li>
                         </ul>
                         <h2>Source Controls</h2>
                         <ul className="tech-list">
