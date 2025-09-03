@@ -57,7 +57,7 @@
     "results": "As a result of my work as a Back-End Developer at Autofunnel, I implemented the email generation and sending system, also set up the payment system and internal wallet, contributed to each part of the system, fixed bugs and optimized the system",
     "previewImage": "autofunnel-preview.png"
   },
-    {
+  {
     "role": "Back-End Developer",
     "company": "Wonderish",
     "duration": "2 months",
@@ -125,5 +125,46 @@
       "Nx"
     ],
     "results": "As a result of my work as a Back-End Developer at Catwalk, I created an API for uploading, checking images for inappropriate content, blurring images, building vectors, and also a firebase authorization module."
+  },
+  {
+    "role": "Back-End Developer",
+    "company": "AceFace AI",
+    "duration": "2 months",
+    "description": "AceFace is an AI-driven platform that transforms your selfies into hyper-realistic, professional-grade headshots in under 3 minutes—without needing a photographer or subscription.",
+    "technologies": [
+      "NextJS",
+      "Postgresql",
+      "Supabase",
+      "Vercel",
+      "Stripe",
+      "Resend",
+      "Jszip",
+      "Fal Ai"
+    ],
+    "results": "As a result of my work as a Back-End Developer at AceFace AI, I created an API for processing payments, train LLM via user's photos and than generate a new one with selected styles, zipping input and output photos, supabase integration.",
+    "previewImage": "aceface-preview.png"
+  },
+  {
+    "role": "Back-End Developer",
+    "company": "AeoVision",
+    "duration": "1 month",
+    "description": "AEO stands for Answer Engine Optimization - the modern counterpart to SEO. While SEO helps you rank in search engine results pages, AEO helps ensure your brand is the answer in AI-generated responses from tools like ChatGPT, Gemini, and Perplexity.",
+    "technologies": [
+      "NestJS",
+      "Postgresql",
+      "Redis",
+      "GraphQl",
+      "Render",
+      "Stripe",
+      "Open AI",
+      "Gemini",
+      "Claude",
+      "Perplexity",
+      "Postmark",
+      "P-limit",
+      "Reddit API"
+    ],
+    "results": "As a result of my work as a Back-End Developer at AeoVision, I optimized an API for processing brand analytics via prompts by batching and running in parallel, fixed bugs, implemented additional analytics. Also I implemented integration with reddit for collecting brand mentions.",
+    "previewImage": "aeovision-preview.png"
   }
 ]

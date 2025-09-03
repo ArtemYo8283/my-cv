@@ -73,6 +73,8 @@ const Home = () => {
                             <li>Stripe</li>
                             <li>Twilio</li>
                             <li>MailGun</li>
+                            <li>Postmark</li>
+                            <li>Resend</li>
                             <li>SendGrid</li>
                             <li>RabbitMQ</li>
                             <li>Socket.io</li>
@@ -96,6 +98,7 @@ const Home = () => {
                             <li>MongoDB</li>
                             <li>Firebase</li>
                             <li>Supabase</li>
+                            <li>Redis</li>
                         </ul>
                         <h2>Cloud Platforms</h2>
                         <ul className="tech-list">
