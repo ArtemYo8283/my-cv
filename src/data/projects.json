@@ -129,10 +129,11 @@
   {
     "role": "Back-End Developer",
     "company": "AceFace AI",
-    "duration": "2 months",
+    "duration": "3 months",
     "description": "AceFace is an AI-driven platform that transforms your selfies into hyper-realistic, professional-grade headshots in under 3 minutes—without needing a photographer or subscription.",
     "technologies": [
       "NextJS",
+      "NestJS",
       "Postgresql",
       "Supabase",
       "Vercel",
@@ -147,7 +148,7 @@
   {
     "role": "Back-End Developer",
     "company": "AeoVision",
-    "duration": "1 month",
+    "duration": "4 month",
     "description": "AEO stands for Answer Engine Optimization - the modern counterpart to SEO. While SEO helps you rank in search engine results pages, AEO helps ensure your brand is the answer in AI-generated responses from tools like ChatGPT, Gemini, and Perplexity.",
     "technologies": [
       "NestJS",
@@ -166,5 +167,49 @@
     ],
     "results": "As a result of my work as a Back-End Developer at AeoVision, I optimized an API for processing brand analytics via prompts by batching and running in parallel, fixed bugs, implemented additional analytics. Also I implemented integration with reddit for collecting brand mentions.",
     "previewImage": "aeovision-preview.png"
+  },
+  {
+    "role": "Back-End Developer",
+    "company": "Rebatr",
+    "duration": "2 month",
+    "description": "Rebatr is online platform for sellers and shoppers. Here sellers can offer use discounts for their products and shoppers get products for lower price.",
+    "technologies": [
+      "NestJS",
+      "Postgresql",
+      "Prisma",
+      "Jwt",
+      "Resend",
+      "Swagger",
+      "Cloudflare R2",
+      "Render"
+    ],
+    "results": "As a result of my work as a Back-End Developer at Rebatr, I fully developed REST API for app including: Amazon scrapper, role-base access, auth module, statistics endpoints, storage management and deployment.",
+    "previewImage": "rebatr-preview.png"
+  },
+  {
+    "role": "Back-End Developer",
+    "company": "Movesmethod",
+    "duration": "2 month",
+    "description": "Movesmethod is mobile fitness app for every day. It gives user every day movement with detail instructions, offer weekly statistic and body analyze.",
+    "technologies": [
+      "Vite",
+      "NestJs",
+      "Postgresql",
+      "Supabase",
+      "RCP-functions",
+      "Supabase Edge functions",
+      "RLS",
+      "SendGrid",
+      "Mixpanel",
+      "APN",
+      "Swagger",
+      "Zod",
+      "Sonner",
+      "Tailwind",
+      "Shadcn",
+      "Render"
+    ],
+    "results": "As a result of my work as a Back-End Developer at Movesmethod, I improved database schema, add rcp functions, configured RLS, implemented web admin panel for edit app content, implement scheduled notifications throw apn.",
+    "previewImage": "movesmethod-preview.png"
   }
 ]
