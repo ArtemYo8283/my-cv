@@ -129,7 +129,7 @@
   {
     "role": "Back-End Developer",
     "company": "AceFace AI",
-    "duration": "3 months",
+    "duration": "6 months",
     "description": "AceFace is an AI-driven platform that transforms your selfies into hyper-realistic, professional-grade headshots in under 3 minutes—without needing a photographer or subscription.",
     "technologies": [
       "NextJS",
@@ -189,7 +189,7 @@
   {
     "role": "Back-End Developer",
     "company": "Movesmethod",
-    "duration": "2 month",
+    "duration": "5 month",
     "description": "Movesmethod is mobile fitness app for every day. It gives user every day movement with detail instructions, offer weekly statistic and body analyze.",
     "technologies": [
       "Vite",
@@ -209,7 +209,57 @@
       "Shadcn",
       "Render"
     ],
-    "results": "As a result of my work as a Back-End Developer at Movesmethod, I improved database schema, add rcp functions, configured RLS, implemented web admin panel for edit app content, implement scheduled notifications throw apn.",
+    "results": "As a result of my work as a Back-End Developer at Movesmethod, I improved database schema, add rcp functions, configured RLS, implemented web admin panel for edit app content, implement scheduled notifications throw apn, developed API, made custom supabase test module and schema diff tool for prod and dev environments.",
     "previewImage": "movesmethod-preview.png"
+  },
+  {
+    "role": "Full-Stack Developer",
+    "company": "GlowAi",
+    "duration": "2 month",
+    "description": "Glow is a no-code platform designed for business teams to build, scale, and manage reliable AI workflows. Unlike unpredictable autonomous AI agents, Glow integrates AI into structured, step-by-step processes controlled by programmatic logic. With over 2,700 app integrations, built-in 'human-in-the-loop' guardrails, and predictable pricing, it allows operations, marketing, and sales teams to securely automate routine tasks without relying on IT or engineering support.",
+    "technologies": [
+      "NestJs",
+      "Postgresql",
+      "Prisma",
+      "GraphQl",
+      "Pipedream",
+      "Pulsar",
+      "Keycloak",
+      "Kubernetes",
+      "Stripe",
+      "Next.Js",
+      "GCP"
+    ],
+    "results": "As a result of my work as a Full-Stack Developer at GlowAi, I implemented and stabilized core workflow/agent features (Agent Chat message types, function-call logging, migrations, GraphQL schema/types updates), improved scheduler execution (rrule/nextRun, trigger-mode fixes), delivered and debugged Stripe subscription flows and webhooks (return URLs, 404 fixes, secret issues, fallbacks), added Slack/Google Chat integration logic, resolved build/merge conflicts across services, and supported the doflo → getglow rebrand and production hotfixes.",
+    "previewImage": "glowai-preview.png"
+  },
+  {
+    "role": "Back-End Developer",
+    "company": "Pascal Academy",
+    "duration": "3 month",
+    "description": "Pascal's Academy is an AI-powered educational platform that provides personalized, 24/7 academic support. It uses 'AI educators' to adapt to each student's learning style and pace. The platform offers affordable, high-quality tutoring with detailed progress tracking, aiming to serve students, parents, and teachers by making effective education more accessible.",
+    "technologies": [
+      "NestJs",
+      "Postgresql",
+      "Prisma",
+      "Swagger",
+      "Socket.IO",
+      "Event Emitter",
+      "Redis",
+      "Stripe",
+      "GCP",
+      "Stripe",
+      "Open AI",
+      "Gemini",
+      "Deepseek",
+      "Grok",
+      "Brevo",
+      "Twilio",
+      "Zod",
+      "Google Drive API",
+      "Railway"
+    ],
+    "results": "As a result of my work as a Back-End Developer at Pascal's Academy, I built and shipped key product modules end-to-end: implemented parent/child dashboards (lessons, streaks, time tracking, recommendations, progress), improved auth flows (OAuth fixes, 4-digit email confirmation, token security), delivered Stripe subscription management (checkout/portal sessions, upgrades/downgrades, cancel flow, webhooks) and pricing seeding, added real-time notifications and chat via Socket.IO with event-driven listeners, optimized performance with caching and query fixes, and introduced an LLM tutoring stack (OpenAI/Gemini/DeepSeek/Grok) with prompt/persona system, rich markdown/math output, and contextual chat memory.",
+    "previewImage": "pascal-preview.png"
   }
 ]
