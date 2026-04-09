@@ -1,5 +1,5 @@
 .contacts-section {
-    padding: 100px 20px;
+    padding: var(--section-pad-y) var(--page-pad-x);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@
 .contacts-container {
     max-width: 600px;
     width: 100%;
-    background-color: #1e1e1e;
+    background-color: var(--panel);
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -52,4 +52,25 @@
 .timezone {
     margin-top: 30px;
     justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .contacts-container {
+        padding: 22px;
+    }
+
+    .contacts-container h1 {
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+
+    .contact-item {
+        align-items: flex-start;
+    }
+
+    .contact-item a,
+    .contact-item span {
+        font-size: 1rem;
+        word-break: break-word;
+    }
 }

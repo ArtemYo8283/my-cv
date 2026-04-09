@@ -1,18 +1,18 @@
 .projects-section {
-    padding: 100px 20px;
-    background-color: #121212;
-    color: #e0e0e0;
+    padding: var(--section-pad-y) var(--page-pad-x);
+    background-color: var(--bg);
+    color: var(--text);
 }
 
 .projects-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0;
 }
 
 .projects-section h1 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: clamp(2rem, 4vw, 2.5rem);
     margin-bottom: 40px;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .project-header h2 {
-    font-size: 1.8rem;
+    font-size: clamp(1.35rem, 3.2vw, 1.8rem);
     margin: 0;
 }
 
@@ -48,6 +48,23 @@
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .projects-section h1 {
+        font-size: 2rem;
+        margin-bottom: 28px;
+    }
+
+    .project-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+
+    .project-header h2 {
+        font-size: 1.4rem;
+    }
 }
 
 .project-description {
